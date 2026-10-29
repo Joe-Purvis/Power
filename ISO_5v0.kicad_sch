@@ -1037,209 +1037,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LED:LD271"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0.508 1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "LD271"
-				(at -1.016 -2.794 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "LED_THT:LED_D5.0mm_IRGrey"
-				(at 0 4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "http://www.alliedelec.com/m/d/40788c34903a719969df15f1fbea1056.pdf"
-				(at -1.27 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "940nm IR-LED, 5mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "IR LED"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED*5.0mm*IRGrey*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LD271_0_1"
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.413 1.651) (xy -0.889 3.175) (xy -0.889 2.667) (xy -0.889 3.175) (xy -1.397 3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.143 1.651) (xy 0.381 3.175) (xy 0.381 2.667)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy -2.54 0) (xy 0 1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 3.175) (xy -0.127 3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LD271_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
 		(start 154.94 71.12)
@@ -1252,6 +1049,29 @@
 			(type none)
 		)
 		(uuid "6adae172-6f47-4fd4-80c9-9f646cf6fca6")
+	)
+	(rectangle
+		(start 58.42 60.96)
+		(end 72.39 106.68)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "aeb15e2b-2379-42c6-888b-74c5350a5a8a")
+	)
+	(text "Load resistor guarentees DC:DC convertor \nminimum load requirement is met ≈ 50mA"
+		(exclude_from_sim no)
+		(at 68.072 55.372 0)
+		(effects
+			(font
+				(face "Verdana")
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "15df9e44-e5bc-49bd-995c-0b44391ecc56")
 	)
 	(text "Isolation Capacitance = 2.1pF"
 		(exclude_from_sim no)
@@ -1275,6 +1095,17 @@
 		)
 		(uuid "3b764706-9fd1-4fde-82d7-b322ce9ffb2a")
 	)
+	(text "50mA minimum"
+		(exclude_from_sim no)
+		(at 65.278 109.728 0)
+		(effects
+			(font
+				(face "Verdana")
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "85eae32c-499c-4957-97ba-5dd31aa13070")
+	)
 	(junction
 		(at 83.82 78.74)
 		(diameter 0)
@@ -1282,10 +1113,10 @@
 		(uuid "016a8649-a4f4-48f9-aa13-52caed0bb61f")
 	)
 	(junction
-		(at 63.5 101.6)
+		(at 67.31 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "17f340d1-6c98-4d87-9e9c-c1d9d210ceb0")
+		(uuid "0adb319b-c81d-4c5e-a1ce-5bb5524a82df")
 	)
 	(junction
 		(at 165.1 88.9)
@@ -1306,14 +1137,14 @@
 		(uuid "9c860bc4-f67e-41aa-a67b-f15a6e0c1d68")
 	)
 	(junction
-		(at 63.5 63.5)
+		(at 67.31 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bf7f76eb-3e85-4d8f-8365-8992f522fec2")
+		(uuid "f8a9acf6-49bd-42ed-8f09-335668858319")
 	)
 	(wire
 		(pts
-			(xy 63.5 63.5) (xy 83.82 63.5)
+			(xy 50.8 63.5) (xy 67.31 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1373,33 +1204,33 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 91.44) (xy 63.5 101.6)
+			(xy 67.31 101.6) (xy 83.82 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56a2e397-6120-4761-a960-7ec6ae2fc33f")
+		(uuid "507115d0-8be8-490d-b738-b7a37b0f4042")
 	)
 	(wire
 		(pts
-			(xy 63.5 101.6) (xy 83.82 101.6)
+			(xy 67.31 78.74) (xy 67.31 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c019d12-e9dd-4633-b9f3-4a310d434316")
+	)
+	(wire
+		(pts
+			(xy 50.8 101.6) (xy 67.31 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6dccd13c-50a0-41b9-9b83-f10b16f3db9f")
-	)
-	(wire
-		(pts
-			(xy 50.8 63.5) (xy 63.5 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "800673d2-2a79-4136-81f8-25693cc9cb6c")
 	)
 	(wire
 		(pts
@@ -1420,16 +1251,6 @@
 			(type default)
 		)
 		(uuid "972df320-12aa-4735-b5af-1caf90ef39d8")
-	)
-	(wire
-		(pts
-			(xy 63.5 63.5) (xy 63.5 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e3a7a10-41a0-465e-a2d6-5596bdf37f05")
 	)
 	(wire
 		(pts
@@ -1503,47 +1324,23 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 81.28) (xy 63.5 83.82)
+			(xy 67.31 86.36) (xy 67.31 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "da2db900-7ad6-49f5-8da8-587c4a2fa800")
+		(uuid "f08b04ad-8066-4797-8c9b-b70cb5c9ad5c")
 	)
 	(wire
 		(pts
-			(xy 50.8 101.6) (xy 63.5 101.6)
+			(xy 67.31 63.5) (xy 83.82 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f8cab6bd-9d44-4f2b-8a3e-41d0d15487ad")
-	)
-	(label "ISO_5v0"
-		(at 68.58 63.5 0)
-		(effects
-			(font
-				(face "Verdana")
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left bottom)
-		)
-		(uuid "0b0b6ed4-33d4-4ca4-8d46-2f3a73684e13")
-	)
-	(label "ISO_RET"
-		(at 68.58 101.6 0)
-		(effects
-			(font
-				(face "Verdana")
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left bottom)
-		)
-		(uuid "84152e40-ddd5-4fb5-a942-7f0e139ec404")
+		(uuid "fe7c5319-a01c-4f6a-af22-612cc87f683e")
 	)
 	(hierarchical_label "EXT_RET"
 		(shape input)
@@ -1594,256 +1391,6 @@
 		(uuid "86689301-319a-4e03-a3f5-ed643fc87abe")
 	)
 	(symbol
-		(lib_id "LED:LD271")
-		(at 63.5 86.36 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0899062f-7795-46cf-aa96-3521bf822a0d")
-		(property "Reference" "D2"
-			(at 60.96 87.122 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Verdana")
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Yellow-green"
-			(at 60.706 89.662 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Verdana")
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
-			(at 67.945 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/bb4531d5096ae352bc362d6f1e0e3674.pdf?productCode=C6491384"
-			(at 63.5 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1206 SMD yellow-green LED, flat lens, AlGaInP, 574nm typ., 20mA"
-			(at 63.5 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Venkel"
-			(at 63.5 86.36 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer's Part Number" "CTL1206FGR1T"
-			(at 54.102 89.408 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Verdana")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor 1" "JLCPCB"
-			(at 63.5 86.36 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor 1 Order Code" ""
-			(at 63.5 86.36 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor 1 Cost (ea)" ""
-			(at 63.5 86.36 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor 2" ""
-			(at 63.5 86.36 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor 2 Order Code" ""
-			(at 63.5 86.36 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor 2 Cost (ea)" ""
-			(at 63.5 86.36 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Material" ""
-			(at 63.5 86.36 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "65mW max"
-			(at 63.5 86.36 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage Rating" ""
-			(at 63.5 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power Dissipation" ""
-			(at 63.5 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C6491384"
-			(at 63.5 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Assembly" "Extended"
-			(at 63.5 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 63.5 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c9024270-dcef-4ecc-aad6-a43e20031b57")
-		)
-		(pin "2"
-			(uuid "030ef737-3190-4947-97f3-7ae132cb9fbb")
-		)
-		(instances
-			(project "LogicPower"
-				(path "/d84179ea-4b6d-42c5-b018-3d39b9f8730a/a98bb9a9-913c-46aa-a410-cfe11192116e"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Common_Components:L")
 		(at 173.99 78.74 0)
 		(unit 1)
@@ -1888,7 +1435,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1804250810_cjiang-Changjiang-Microelectronics-Tech-FNR4020S220MT_C167838.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/FNR4018S150MT/C167809"
 			(at 173.99 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -2064,6 +1611,50 @@
 				)
 			)
 		)
+		(property "Review Notes" "Retained existing 4x4mm input inductor. Allow approximately 0.2V input drop at full NXE2 load; use regulated nominal 5V input, not 4.5V at board connector."
+			(at 173.99 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current Rating" "1A"
+			(at 173.99 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Saturation Current" "1.1A"
+			(at 173.99 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DC Resistance" "0.325 ohm"
+			(at 173.99 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4e1dae2f-7ad5-48e1-b0e8-4be27ac18d02")
 		)
@@ -2071,12 +1662,16 @@
 			(uuid "6cee3a88-9aa4-4cd8-baa7-3f63d99be461")
 		)
 		(instances
-			(project "LogicPower"
+			(project "Power"
 				(path "/d84179ea-4b6d-42c5-b018-3d39b9f8730a/a98bb9a9-913c-46aa-a410-cfe11192116e"
 					(reference "L1")
 					(unit 1)
 				)
 			)
+		)
+		(property "Package" "SMD,4x4mm"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 	)
 	(symbol
@@ -2114,7 +1709,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 97.79 97.536 0)
 			(hide yes)
 			(show_name no)
@@ -2125,7 +1720,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/631/ECJ_HighCapacitance_Rev2005.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C13585"
 			(at 137.668 101.854 0)
 			(hide yes)
 			(show_name no)
@@ -2147,7 +1742,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 83.82 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2158,7 +1753,7 @@
 				)
 			)
 		)
-		(property "Manufacturer's Part Number" "C1210C106K5RACTU"
+		(property "Manufacturer's Part Number" "CL31A106KBHNNNE"
 			(at 83.82 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2169,7 +1764,7 @@
 				)
 			)
 		)
-		(property "Vendor 1" "Digikey"
+		(property "Vendor 1" "JLCPCB"
 			(at 83.82 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2180,7 +1775,7 @@
 				)
 			)
 		)
-		(property "Vendor 1 Order Code" "399-C1210C106K5RACTUCT-ND"
+		(property "Vendor 1 Order Code" "C13585"
 			(at 83.82 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2191,7 +1786,7 @@
 				)
 			)
 		)
-		(property "Vendor 1 Cost (ea)" "0.24"
+		(property "Vendor 1 Cost (ea)" ""
 			(at 83.82 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2235,7 +1830,7 @@
 				)
 			)
 		)
-		(property "Voltage Rating" "16V"
+		(property "Voltage Rating" "50V"
 			(at 78.232 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2246,7 +1841,7 @@
 				)
 			)
 		)
-		(property "Material" "Tantalum"
+		(property "Material" "X5R"
 			(at 83.82 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2257,7 +1852,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C307584"
+		(property "LCSC" "C13585"
 			(at 83.82 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2301,6 +1896,17 @@
 				)
 			)
 		)
+		(property "Review Notes" "10uF 50V X5R 10%; JLC Basic candidate. Check effective capacitance and startup with connected load."
+			(at 83.82 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ae36d616-0e47-4b3b-b453-63307fb728cb")
 		)
@@ -2308,17 +1914,22 @@
 			(uuid "5111abec-71e2-4c7a-8217-49296cb94e9b")
 		)
 		(instances
-			(project "LogicPower"
+			(project "Power"
 				(path "/d84179ea-4b6d-42c5-b018-3d39b9f8730a/a98bb9a9-913c-46aa-a410-cfe11192116e"
 					(reference "C3")
 					(unit 1)
 				)
 			)
 		)
+		(property "Package" "1206"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 	)
 	(symbol
 		(lib_id "Common_Components:NXE2S0505MC")
 		(at 129.54 83.82 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2326,7 +1937,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "39e51502-4378-44a0-b064-26bada86b531")
 		(property "Reference" "U1"
 			(at 129.54 71.12 0)
@@ -2383,7 +1993,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 129.54 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2394,7 +2004,7 @@
 				)
 			)
 		)
-		(property "Manufacturer's Part Number" ""
+		(property "Manufacturer's Part Number" "NXE2S0505MC-R7"
 			(at 129.54 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2405,7 +2015,7 @@
 				)
 			)
 		)
-		(property "Vendor 1" ""
+		(property "Vendor 1" "JLCPCB"
 			(at 129.54 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2416,7 +2026,7 @@
 				)
 			)
 		)
-		(property "Vendor 1 Order Code" ""
+		(property "Vendor 1 Order Code" "C5817088"
 			(at 129.54 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2526,6 +2136,17 @@
 				)
 			)
 		)
+		(property "Review Notes" "JLC catalogue part verified. Rated OUTPUT current 400mA; supplier 542mA entry refers to INPUT current. Stock allocation must be checked at ordering."
+			(at 129.54 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "63c03d69-13b2-4a60-924f-70a4674bab32")
 		)
@@ -2542,17 +2163,21 @@
 			(uuid "e539aeac-9412-4812-b6ac-6569e837554f")
 		)
 		(instances
-			(project "LogicPower"
+			(project "Power"
 				(path "/d84179ea-4b6d-42c5-b018-3d39b9f8730a/a98bb9a9-913c-46aa-a410-cfe11192116e"
 					(reference "U1")
 					(unit 1)
 				)
 			)
 		)
+		(property "Package" "SMD-5P,12.7x10.4mm"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 	)
 	(symbol
 		(lib_id "Common_Components:R_US")
-		(at 63.5 77.47 0)
+		(at 67.31 82.55 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2561,9 +2186,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7cf6faba-9e59-4e89-9e3e-4d7bfcfc7851")
-		(property "Reference" "R2"
-			(at 59.944 76.2 0)
+		(uuid "78096be1-15fb-4e66-b697-66307b8eb55c")
+		(property "Reference" "R7"
+			(at 63.5 80.518 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2573,8 +2198,8 @@
 				)
 			)
 		)
-		(property "Value" "470Ω"
-			(at 58.928 78.486 0)
+		(property "Value" "100Ω"
+			(at 62.484 82.804 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2585,7 +2210,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 64.516 77.216 90)
+			(at 68.326 82.296 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2595,8 +2220,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 104.14 63.246 0)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/TA_ITech-RAS12FTN1000/C2978216"
+			(at 107.95 68.326 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2606,8 +2231,8 @@
 				)
 			)
 		)
-		(property "Description" "470 Ω ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film"
-			(at 87.122 73.152 0)
+		(property "Description" "100 ohm +/-1%, 0.5W, 1206 (3216 metric), +/-100ppm/C, thick-film minimum-load resistor"
+			(at 90.932 78.232 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2617,8 +2242,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
-			(at 85.09 69.088 0)
+		(property "Manufacturer" "TA-I Tech"
+			(at 88.9 74.168 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2628,8 +2253,8 @@
 				)
 			)
 		)
-		(property "Manufacturer's Part Number" "RC1206FR-07470RL"
-			(at 81.28 59.69 0)
+		(property "Manufacturer's Part Number" "RAS12FTN1000"
+			(at 85.09 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2639,8 +2264,8 @@
 				)
 			)
 		)
-		(property "Vendor 1" "Digikey"
-			(at 81.534 77.216 0)
+		(property "Vendor 1" "JLCPCB"
+			(at 85.344 82.296 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2650,8 +2275,8 @@
 				)
 			)
 		)
-		(property "Vendor 1 Order Code" "311-470FRCT-ND"
-			(at 82.042 65.532 0)
+		(property "Vendor 1 Order Code" "C2978216"
+			(at 85.852 70.612 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2661,8 +2286,8 @@
 				)
 			)
 		)
-		(property "Vendor 1 Cost (ea)" "0.07"
-			(at 76.454 79.502 0)
+		(property "Vendor 1 Cost (ea)" ""
+			(at 80.264 84.582 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2673,7 +2298,7 @@
 			)
 		)
 		(property "Vendor 2" ""
-			(at 63.5 77.47 0)
+			(at 67.31 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2684,7 +2309,7 @@
 			)
 		)
 		(property "Vendor 2 Order Code" ""
-			(at 63.5 77.47 0)
+			(at 67.31 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2694,8 +2319,8 @@
 				)
 			)
 		)
-		(property "Voltage Rating" ""
-			(at 63.5 77.47 90)
+		(property "Voltage Rating" "7.07V power-limited at 0.5W; series limit 200V"
+			(at 67.31 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2705,8 +2330,8 @@
 				)
 			)
 		)
-		(property "Material" ""
-			(at 63.5 77.47 90)
+		(property "Material" "Thick film"
+			(at 67.31 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2716,19 +2341,19 @@
 				)
 			)
 		)
-		(property "Power" ""
-			(at 63.5 77.47 90)
-			(hide yes)
+		(property "Power" "0.5W"
+			(at 62.484 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "Verdana")
 					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Vendor 2 Cost (ea)" ""
-			(at 63.5 77.47 0)
+			(at 67.31 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2739,7 +2364,7 @@
 			)
 		)
 		(property "Vendor 2 Cost" ""
-			(at 63.5 77.47 0)
+			(at 67.31 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2750,7 +2375,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 63.5 77.47 0)
+			(at 67.31 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2761,7 +2386,7 @@
 			)
 		)
 		(property "Vendor 1 Cost" ""
-			(at 63.5 77.47 0)
+			(at 67.31 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2771,8 +2396,118 @@
 				)
 			)
 		)
-		(property "LCSC" "C25383"
-			(at 63.5 77.47 0)
+		(property "LCSC" "C2978216"
+			(at 67.31 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Review Notes" "Permanent NXE2 minimum-load resistor across filtered isolated 5V and ISO_RET. Changed 120 ohm to 100 ohm for low-voltage margin. 50mA and 0.250W at 5V. At +1% resistance, draws at least 40mA when rail >=4.04V (before TCR). Do not count this current as available external load. Use 0.5W-rated 1206, not ordinary 0.25W. Check thermal derating at maximum board ambient; verify converter input range and minimum filtered voltage on hardware."
+			(at 67.31 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Dissipation" "0.5W"
+			(at 67.31 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Minimum Power Rating" "0.5W"
+			(at 67.31 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Nominal Dissipation" "0.250W at 5V"
+			(at 67.31 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Nominal Load Current" "50mA at 5V"
+			(at 67.31 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 67.31 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature Coefficient" "100ppm/C"
+			(at 67.31 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part Class" "Extended"
+			(at 67.31 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Availability" "JLC listing shows in stock; retrieved 2026-10-25 from indexed page; reconfirm allocation when ordering"
+			(at 67.31 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" ""
+			(at 67.31 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2783,18 +2518,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "33d19f32-db80-42cd-8fd3-dd10127f68eb")
+			(uuid "9fcca5a6-4dcd-461e-987c-5228cfc80f6d")
 		)
 		(pin "2"
-			(uuid "57deab87-3118-4b71-bc06-f2c7b0a2026b")
+			(uuid "ad3aaedd-294c-425a-be6a-6b7f956a8a1e")
 		)
 		(instances
-			(project "LogicPower"
+			(project "Power"
 				(path "/d84179ea-4b6d-42c5-b018-3d39b9f8730a/a98bb9a9-913c-46aa-a410-cfe11192116e"
-					(reference "R2")
+					(reference "R7")
 					(unit 1)
 				)
 			)
+		)
+		(property "Package" "1206"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 	)
 	(symbol
@@ -2831,7 +2570,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Common_Components:IND_8400_84XXXC_MUR"
+		(property "Footprint" "Common_Components:L_Sunlord_SWPA5040"
 			(at 100.33 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -2842,7 +2581,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.sunlordinc.com/uploads/files/20221122/SWPA%20series%20of%20SMD%20Power%20Inductor.pdf"
 			(at 100.33 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -2864,7 +2603,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YJYCOIN"
+		(property "Manufacturer" "Sunlord"
 			(at 100.33 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -2875,7 +2614,7 @@
 				)
 			)
 		)
-		(property "Manufacturer's Part Number" "YNR4030-220M"
+		(property "Manufacturer's Part Number" "SWPA5040S220MT"
 			(at 100.33 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -2886,7 +2625,7 @@
 				)
 			)
 		)
-		(property "Vendor 1" ""
+		(property "Vendor 1" "JLCPCB"
 			(at 100.33 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -2897,7 +2636,7 @@
 				)
 			)
 		)
-		(property "Vendor 1 Order Code" ""
+		(property "Vendor 1 Order Code" "C68434"
 			(at 100.33 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -2985,7 +2724,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C341013"
+		(property "LCSC" "C68434"
 			(at 100.33 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -3007,6 +2746,50 @@
 				)
 			)
 		)
+		(property "Review Notes" "22uH output filter: 67.2mV maximum resistive drop at 400mA. SRF minimum 11MHz, below Murata recommended >20MHz: bench ripple/EMI validation required; no 5mV ripple guarantee."
+			(at 100.33 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current Rating" "1.5A"
+			(at 100.33 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Saturation Current" "1.6A minimum threshold"
+			(at 100.33 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DC Resistance" "0.168 ohm max"
+			(at 100.33 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2b2fd2a4-a59f-4da0-bbd7-4f6c0f7f374a")
 		)
@@ -3014,12 +2797,16 @@
 			(uuid "2cb1e098-bdea-4d03-becd-8fc0115e6d24")
 		)
 		(instances
-			(project "LogicPower"
+			(project "Power"
 				(path "/d84179ea-4b6d-42c5-b018-3d39b9f8730a/a98bb9a9-913c-46aa-a410-cfe11192116e"
 					(reference "L2")
 					(unit 1)
 				)
 			)
+		)
+		(property "Package" "SMD,5x5mm"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 	)
 	(symbol
@@ -3068,7 +2855,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C29823"
 			(at 218.948 101.854 0)
 			(hide yes)
 			(show_name no)
@@ -3090,7 +2877,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Walsin Technology Corporation"
+		(property "Manufacturer" "FH"
 			(at 165.1 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3101,7 +2888,7 @@
 				)
 			)
 		)
-		(property "Manufacturer's Part Number" "1206B475K160CT"
+		(property "Manufacturer's Part Number" "1206B475K500NT"
 			(at 165.1 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3112,7 +2899,7 @@
 				)
 			)
 		)
-		(property "Vendor 1" "Digikey"
+		(property "Vendor 1" "JLCPCB"
 			(at 165.1 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3123,7 +2910,7 @@
 				)
 			)
 		)
-		(property "Vendor 1 Order Code" "1292-1206B475K160CTTR-ND"
+		(property "Vendor 1 Order Code" "C29823"
 			(at 165.1 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3134,7 +2921,7 @@
 				)
 			)
 		)
-		(property "Vendor 1 Cost (ea)" "-"
+		(property "Vendor 1 Cost (ea)" ""
 			(at 165.1 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3178,7 +2965,7 @@
 				)
 			)
 		)
-		(property "Voltage Rating" "16V"
+		(property "Voltage Rating" "50V"
 			(at 159.512 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3189,7 +2976,7 @@
 				)
 			)
 		)
-		(property "Material" "Ceramic (X7R)"
+		(property "Material" "X7R"
 			(at 165.1 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3200,7 +2987,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C237223"
+		(property "LCSC" "C29823"
 			(at 165.1 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3244,6 +3031,17 @@
 				)
 			)
 		)
+		(property "Review Notes" "4.7uF 50V X7R +/-10%; JLC Basic input filter capacitor for NXE2 converter."
+			(at 165.1 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e0c4a48c-3500-440b-8462-84965b1535b6")
 		)
@@ -3251,12 +3049,16 @@
 			(uuid "0a7f92bd-11c8-46c5-9fd8-a35381dc4a6b")
 		)
 		(instances
-			(project "LogicPower"
+			(project "Power"
 				(path "/d84179ea-4b6d-42c5-b018-3d39b9f8730a/a98bb9a9-913c-46aa-a410-cfe11192116e"
 					(reference "C1")
 					(unit 1)
 				)
 			)
+		)
+		(property "Package" "1206"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 	)
 )
